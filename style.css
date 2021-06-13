@@ -1,24 +1,74 @@
 body {
-  background-color: gray;
+  background-color: whitesmoke;
 }
 
 h1 {
-  color: white;
+  color: dimgray;
   font-size: 40px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.header {
-  background-color: blue;
-  padding-left: 15px;
-  border: 10ppx solid black;
-  margin-left: 0px;
+h2 {
+  color: dimgray;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.footer {
-  background-color: red;
+h3 {
+  color: dimgray;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left; 
 }
 
-div {
-  border: 2px solid green;
+h4 {
+  color: dimgray;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left; 
+}
+
+.header-container {
+  width: 900px;
+  margin-left: 250px;
+}
+
+ #name {
+  float:left; 
+  background:Red;
+  width:300px;
+  height:150px;
+  text-align: left;
+ }
+ #info-center {
+  float:left; 
+  background:Green;
+  width:300px;
+  height:150px;
+  text-align: center;
+ }
+ #info-right {
+  float:right;
+  background:blue;
+  width:300px;
+  height:150px;
+  text-align: right;
+ }
+
+.category-header {
+  text-transform: uppercase;
+  text-align: left;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding: 0px;
+  border-left: 50px;
+  width: 600px;
+}
+
+.category-content {
+  text-align: justify;
+  text-justify: inter-word;
+  margin-left: 250px;
+  margin-right: 250px;
+  width: 900px;
 }
