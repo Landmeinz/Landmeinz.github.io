@@ -10,65 +10,109 @@ h1 {
 
 h2 {
   color: dimgray;
-  font-size: 12px;
+  font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
 }
 
 h3 {
   color: dimgray;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: left; 
 }
 
 h4 {
   color: dimgray;
-  font-size: 14px;
+  font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: left; 
 }
 
 .header-container {
-  width: 900px;
+  width: 800px; 
+  height: 155px;
   margin-left: 250px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-bottom: 2px solid dimgray;
+}
+
+.experience-container {
+  width: 800px; 
+  height: 155px;
+  margin-left: 250px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
  #name {
-  float:left; 
-  background:Red;
-  width:300px;
-  height:150px;
-  text-align: left;
+  float: left; 
+  height: 150px;
+  width: 250px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-align; left;
+  padding-top: 10px;
  }
  #info-center {
-  float:left; 
-  background:Green;
-  width:300px;
-  height:150px;
+  float: left; 
+  height: 120px;
+  width: 250px;
+  margin: 10px;
   text-align: center;
+  padding-top: 40px;
  }
  #info-right {
-  float:right;
-  background:blue;
-  width:300px;
-  height:150px;
+  float: right;
+  height: 120px;
+  width: 250px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
   text-align: right;
+  padding-top: 40px;
  }
+#company {
+  float: left; 
+  height: 50px;
+  width: 250px;
+  text-align; left;
+  padding-right: 75px;
+}
+#position {
+  float: left; 
+  height: 50px;
+  width: 300px;
+  text-align; center;
+}
+#date {
+  float: right; 
+  height: 50px;
+  width: 1230px;
+  text-align; right;
+}
 
 .category-header {
   text-transform: uppercase;
   text-align: left;
   margin-left: 250px;
   margin-right: 250px;
-  padding: 0px;
+  padding-top: 10px;
   border-left: 50px;
-  width: 600px;
+  width: 850px;
 }
 
 .category-content {
   text-align: justify;
-  text-justify: inter-word;
   margin-left: 250px;
   margin-right: 250px;
-  width: 900px;
+  width: 805px;
 }
+
+
+
+
+
+
+
