@@ -1,118 +1,44 @@
-body {
-  background-color: whitesmoke;
+.grid-container {
+ height: 100vh;
+ border: 2px solid gray;
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-template-rows: repeat(5, 100px);
+ grid-gap: 5px;
 }
 
-h1 {
-  color: dimgray;
-  font-size: 40px;
-  font-family: Arial, Helvetica, sans-serif;
+.grid-item-name {
+ border: 2px solid orange;
+ text-align: left;
+ padding: 5px;
 }
-
-h2 {
-  color: dimgray;
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-top: 20px;
+.grid-item-info {
+ border: 2px solid orange;
+ text-align: center;
+ padding: 5px;
 }
-
-h3 {
-  color: dimgray;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+.grid-item-address {
+ border: 2px solid orange;
+ text-align: right;
+ padding: 5px;
 }
-
-h4 {
-  color: dimgray;
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: left; 
+.grid-item-personal {
+ border: 2px solid orange;
+ grid-column: 1 / 4;
+ padding: 5px;
 }
-
-.header-container {
-  width: 800px; 
-  height: 155px;
-  margin-left: 250px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  border-bottom: 2px solid dimgray;
+.grid-item-exp {
+ border: 2px solid orange;
+ grid-column: 1 / 4;
+ padding: 5px;
 }
-
-.experience-container {
-  width: 800px; 
-  height: 155px;
-  margin-left: 250px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+.grid-item-edu {
+ border: 2px solid orange;
+ grid-column: 1 / 4;
+ padding: 5px;
 }
-
- #name {
-  float: left; 
-  height: 150px;
-  width: 250px;
-  margin-top: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  text-align; left;
-  padding-top: 10px;
- }
- #info-center {
-  float: left; 
-  height: 120px;
-  width: 250px;
-  margin: 10px;
-  text-align: center;
-  padding-top: 40px;
- }
- #info-right {
-  float: right;
-  height: 120px;
-  width: 250px;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  text-align: right;
-  padding-top: 40px;
- }
-#company {
-  float: left; 
-  height: 50px;
-  width: 250px;
-  text-align; left;
-  padding-right: 75px;
+.grid-item-skills {
+ border: 2px solid orange;
+ grid-column: 1 / 4;
+ padding: 5px;
 }
-#position {
-  float: left; 
-  height: 50px;
-  width: 300px;
-  text-align; center;
-}
-#date {
-  float: right; 
-  height: 50px;
-  width: 1230px;
-  text-align; right;
-}
-
-.category-header {
-  text-transform: uppercase;
-  text-align: left;
-  margin-left: 250px;
-  margin-right: 250px;
-  padding-top: 10px;
-  border-left: 50px;
-  width: 850px;
-}
-
-.category-content {
-  text-align: justify;
-  margin-left: 250px;
-  margin-right: 250px;
-  width: 805px;
-}
-
-
-
-
-
-
-
