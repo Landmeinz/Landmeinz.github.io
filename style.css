@@ -2,7 +2,7 @@ h3 {
  font-family: Arial, sans-serif;
  text-transform: uppercase;
  color: darkred;
- font-size: 30px;
+ font-size: 34px;
 }
 h4 {
  font-family: Arial, sans-serif;
@@ -15,6 +15,7 @@ h5 {
  text-transform: uppercase;
  color: gray;
  font-size: 15px;
+ line-height: 22px;
 }
 h6 {
  font-family: Arial, sans-serif;
@@ -24,6 +25,7 @@ p {
  font-family: Arial, sans-serif;
  font-size: 16px;
  color: #202020;
+ line-height: 22px;
 }
 ul {
  font-size: 16px;
@@ -32,6 +34,7 @@ ul {
  color: #202020;
  font-family: Arial, sans-serif;
  list-style-type: circle;
+ line-height: 22px;
 }
 
 .grid-container {
