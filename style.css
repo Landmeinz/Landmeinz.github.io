@@ -30,7 +30,7 @@ ul {
 
 
 .grid-container {
- hidth: 800px;
+ width: 800px;
  padding: 20px;
  border: 2px solid gray;
  display: grid;
@@ -72,19 +72,19 @@ ul {
 
 .grid-item-edu {
  border: 2px solid orange;
- grid-column: 1 / 4;
+ grid-column: 1 / 2;
  padding: 5px;
  border-top: 2px solid gray;
 }
 .grid-item-skills {
  border-top: 2px solid gray;
  border: 2px solid orange;
- grid-column: 1 / 2;
+ grid-column: 2 / 3;
 }
 .grid-item-software {
  border-top: 2px solid gray;
  border: 2px solid orange;
- grid-column: 2 / 3;
+ grid-column: 3 / 4;
 }
   padding: 5px;
 }
