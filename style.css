@@ -24,55 +24,67 @@ font-family: Arial, sans-serif;
 ul {
  list-style-type: circle;
  font-size: 16px;
- text-align: justify; ​
-​}
+ text-align: justify; 
+ margin-left: -23px;
+ }
 
 
 .grid-container {
-​hidth: 800px;
-​border: 2px solid gray;
-​display: grid;
-​grid-template-columns: repeat(3, 1fr);
-​grid-gap: 5px;
-​align-items: start;
-​align-content: start;
-​}
+ hidth: 800px;
+ padding: 20px;
+ border: 2px solid gray;
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-gap: 5px;
+ align-items: start;
+ align-content: start;
+ }
 
 
 .grid-item-name {
-​border: 2px solid orange;
-​text-align: left;
-​padding: 5px;
+ border: 2px solid orange;
+ text-align: left;
+ padding: 5px;
 }
 .grid-item-info {
-​border: 2px solid orange;
-​text-align: center;
-​padding: 5px;
+ border: 2px solid orange;
+ text-align: center;
+ padding: 5px;
 }
 .grid-item-address {
-​border: 2px solid orange;
-​text-align: right;
-​padding: 5px;
+ border: 2px solid orange;
+ text-align: right;
+ padding: 5px;
 }
 .grid-item-personal {
-​border: 2px solid orange;
-​grid-column: 1 / 4;
-​padding: 5px;
-​text-align: justify;
+ border: 2px solid orange;
+ grid-column: 1 / 4;
+ padding: 5px;
+ text-align: justify;
+ border-top: 2px solid gray;
 }
 .grid-item-exp {
-​border: 2px solid orange;
-​padding: 5px;
-​grid-column: 1 / 4;
+ border: 2px solid orange;
+ padding: 5px;
+ grid-column: 1 / 4;
+ border-top: 2px solid gray;
 }
-
 
 .grid-item-edu {
-​border: 2px solid orange;
-​grid-column: 1 / 4;
-​padding: 5px;
+ border: 2px solid orange;
+ grid-column: 1 / 4;
+ padding: 5px;
+ border-top: 2px solid gray;
 }
 .grid-item-skills {
-​border: 2px solid orange;
-​grid-column: 1 / 4;
-​padding: 5px;
+ border-top: 2px solid gray;
+ border: 2px solid orange;
+ grid-column: 1 / 2;
+}
+.grid-item-software {
+ border-top: 2px solid gray;
+ border: 2px solid orange;
+ grid-column: 2 / 3;
+}
+  padding: 5px;
+}
