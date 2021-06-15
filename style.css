@@ -1,44 +1,78 @@
-.grid-container {
- height: 100vh;
- border: 2px solid gray;
- display: grid;
- grid-template-columns: repeat(3, 1fr);
- grid-template-rows: repeat(5, 100px);
- grid-gap: 5px;
+h3 {
+ font-family: Arial, sans-serif;
+ text-transform: uppercase;
 }
+h4 {
+ font-family: Arial, sans-serif;
+ text-transform: uppercase;
+}
+h5 {
+ font-family: Arial, sans-serif;
+ text-transform: uppercase;
+}
+h6 {
+ font-family: Arial, sans-serif;
+ text-transform: uppercase;
+}
+p {
+ font-family: Arial, sans-serif;
+ font-size: 16px;
+}
+li {
+font-family: Arial, sans-serif;
+}
+ul {
+ list-style-type: circle;
+ font-size: 16px;
+ text-align: justify; ​
+​}
+
+
+.grid-container {
+​hidth: 800px;
+​border: 2px solid gray;
+​display: grid;
+​grid-template-columns: repeat(3, 1fr);
+​grid-gap: 5px;
+​align-items: start;
+​align-content: start;
+​}
+
 
 .grid-item-name {
- border: 2px solid orange;
- text-align: left;
- padding: 5px;
+​border: 2px solid orange;
+​text-align: left;
+​padding: 5px;
 }
 .grid-item-info {
- border: 2px solid orange;
- text-align: center;
- padding: 5px;
+​border: 2px solid orange;
+​text-align: center;
+​padding: 5px;
 }
 .grid-item-address {
- border: 2px solid orange;
- text-align: right;
- padding: 5px;
+​border: 2px solid orange;
+​text-align: right;
+​padding: 5px;
 }
 .grid-item-personal {
- border: 2px solid orange;
- grid-column: 1 / 4;
- padding: 5px;
+​border: 2px solid orange;
+​grid-column: 1 / 4;
+​padding: 5px;
+​text-align: justify;
 }
 .grid-item-exp {
- border: 2px solid orange;
- grid-column: 1 / 4;
- padding: 5px;
+​border: 2px solid orange;
+​padding: 5px;
+​grid-column: 1 / 4;
 }
+
+
 .grid-item-edu {
- border: 2px solid orange;
- grid-column: 1 / 4;
- padding: 5px;
+​border: 2px solid orange;
+​grid-column: 1 / 4;
+​padding: 5px;
 }
 .grid-item-skills {
- border: 2px solid orange;
- grid-column: 1 / 4;
- padding: 5px;
-}
+​border: 2px solid orange;
+​grid-column: 1 / 4;
+​padding: 5px;
